@@ -1,10 +1,13 @@
 import "./styles/App.scss"
 import PageContainer from "./components/Containers/PageContainer";
+import Navbar from "./components/Navbar/Navbar"; 
 
 function App() {
   return (
     <div className="App">
-      <PageContainer>Hey goon</PageContainer>
+      <PageContainer>
+        <Navbar />
+      </PageContainer>
     </div>
   );
 }

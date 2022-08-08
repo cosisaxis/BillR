@@ -8,4 +8,4 @@ PageContainer.defaultProps = {
     optionClass: undefined,
 };
 
-export default PageContainer
+export default PageContainer 
